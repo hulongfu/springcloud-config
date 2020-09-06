@@ -3,7 +3,6 @@ server:
 eureka:
   client:
     service-url:
-      #注册服务到eureka上，记住这里要加上eureka-server的用户名和密码
       defaultZone: http://root:hulongfu@localhost:8761/eureka
   instance:
     prefer-ip-address: true
